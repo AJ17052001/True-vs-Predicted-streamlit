@@ -37,7 +37,6 @@ col1, col2 = st.columns(2)
 col1.metric("Mean Squared Error", f"{mse:.2f}")
 col2.metric("R-squared Score", f"{r2:.2f}")
 
----
 
 # Visualization Section
 st.subheader("Model Visualizations")
